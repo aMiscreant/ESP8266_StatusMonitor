@@ -1,6 +1,7 @@
 import os
 import base64, json, hmac, hashlib
 from flask import Flask, Response
+# ToDo add support for loop() to detect live system users && services
 
 key = bytes([
     0x1f, 0x1d, 0x9d, 0x2b, 0x8d, 0xc2, 0x19, 0x6d,
