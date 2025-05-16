@@ -17,10 +17,10 @@
 
 // WiFi credentials
 const char* ssid = "TL;DR";
-const char* password = "Miscreant1991";
+const char* password = "********";
 
 // Server info
-const char* host = "192.168.66.183";
+const char* host = "192.168.66.*";
 const int httpsPort = 443;
 const char* endpoint = "/status";
 const int MAX_B64 = 1024;
